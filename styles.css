@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: azure;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 22px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.sub-text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 2rem;
+}
+
+.button {
+    width: 140px;
+    height: 40px;
+    border-radius: 2rem;
+    background-color: coral;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 0rem;
+}
+
+.social1 {
+    
+}
+
+.social {
+    margin: 2rem;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.headshot {
+    width: 300px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 125px;
+
+}
+
+.project-link {
+    text-decoration: none;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
