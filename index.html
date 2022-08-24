@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/e8e3e14358.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +14,16 @@
 <body>
     <section class="hero">
         <nav>
-            <div>LOGO</div>
-            <ul>
+            <div></div>
+            <ul id="nav-list">
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            
         </nav>
         <div class="hero-area">
             <div class="hero-text">   
@@ -75,12 +80,12 @@
                 <div class="project-card">
                     <img class="project-image" src="img/La_panthere.png" alt="project1-img">
                     <h3>Project 3</h3>
-                    <p class="sub-text">Optimisez un site web existant</p>
+                    <p class="sub-text">Optimisez un site web existant SEO/accessibilité</p>
                     <br>
                     <p class="sub-text"> <a class="project-link" href="">Voir ici</a></p>
                 </div>
                 <div class="project-card">
-                    <img class="project-image" src="" alt="project1-img">
+                    <img class="project-image" src="img/kanap.png" alt="photo project 4">
                     <h3>Project 4</h3>
                     <p class="sub-text">Construisez un site e-commerce en JavaScript</p>
                     <br>
@@ -93,5 +98,6 @@
     <h2>Contacter moi</h2>
     <p>mohamedsimintou@gmail.com</p>
 </footer>
+<script src="app.js"></script>
 </html>
 </body>
